@@ -1,0 +1,68 @@
+.row-thread{
+	width: 100%;
+	padding-top: 1rem;
+	margin-bottom: 0.7rem;
+	margin-left: 2rem;
+	padding-left: 0 !important;
+	padding-bottom: 1rem !important;
+	margin-right: 2rem;
+}
+.row-thread:hover, .row-thread:hover .namelink, .row-thread:hover .thread-user-followers{
+	background-color: #7289da !important;
+	color: #fff !important;
+	border-radius: 6px;
+}
+.row-thread:hover .namelink{
+	font-weight: 700;
+}
+.row-thread:hover .thread-user-image{
+	border-color: #fff;
+}
+.row-thread:hover .send-post{
+	color: #fff !important;
+}
+div.col-th-img{
+	position: relative;
+	margin: auto !important;
+}
+span.thread-center{
+	position: absolute;
+	top: calc(50% - 1rem);
+	left: calc(50% - 1rem);
+	width: 2rem;
+	height: 2rem;
+	color: 	#fff;
+	font-size: 2rem;
+	font-weight: 700;
+}
+p.p-thread-post{
+	margin-bottom: 3px !important;
+}
+img.thread-user-image{
+	padding: 2px;
+	border: 3px solid #7289da;
+	border-radius: 180px; 
+	margin: auto;
+}
+div.thread-post-pix{
+/*	position: absolute;*/
+
+}
+span.thread-user-name,span.thread-user-followers,img.thread-user-image{
+	margin-right: 1rem;
+}
+span.thread-span{
+	padding: 0.5rem 1rem !important;
+	padding-bottom: 1rem !important;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	margin: auto;
+}
+img.thread-post-pix{
+	border-radius: 6px;
+	object-fit: cover;
+}
+span.thread-user-followers{
+	font-weight: 600;
+	color: #7289da;
+}

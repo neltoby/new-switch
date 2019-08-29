@@ -1,0 +1,9 @@
+.md-body{
+	max-height: 90%;
+	height: 35rem;
+	overflow: auto;
+}
+.spins{
+	margin: auto;
+	margin-top: 16rem !important;
+}

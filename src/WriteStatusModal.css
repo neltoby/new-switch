@@ -1,0 +1,95 @@
+div.status-modal{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 19;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+div.status-modal-content{
+	width: 40%;
+	margin: 7% auto;
+	background-color: #fff !important;
+/*	max-height: 55%;*/
+	height: 55%;
+	padding: 0;
+	border-radius: 3px;
+}
+div.status-modal-head{
+	border-bottom: 1px solid #ccc;
+	background-color: #647489;
+	height: 15%;
+}
+img.status-profile{
+	width: 4.3rem;
+	height: 90%;
+	margin: auto;
+}
+div.row-modal-head{
+	padding: 0.2rem 2rem ;
+	height: 100%;
+	margin: auto;
+}
+div.status-modal-body{
+	background-color: #fff !important; 
+	padding: 2rem;
+	height: 85%;
+}
+div.status-row{
+	width: 100%;
+	border-top: 1px solid #ddd;
+	margin-right: 0;
+	margin-left: 0;
+	padding-right: 0;
+	padding-right: 0;
+}
+div.status-row span.image-emoji{
+	/*font-size: 30px !important;*/
+}
+div.status-grp textarea{
+	font-size: 40px;
+	height: 100%;
+}
+div.status-modal-wall-title{
+	font-size: 25px;
+	color: #fff;
+	height: inherit;
+	padding-top: 1rem;
+}
+span.status-modal-wall-turnoff-title{
+	font-size: 30px;
+	color: #7289da;
+}
+div.status-modal-wall-title span.status-modal-wall-title{
+	/*margin-top: 1.5rem;*/
+}
+span.status-modal-close{
+	font-weight: 700;
+	font-size: 25px;
+	color: #fff
+}
+div.status-textarea{
+	height: 80%;
+}
+div.status-grp{
+	height: 100% !important;
+}
+img.turm-img{
+	border-radius: 180px;
+}
+div.turn-off-name{
+	text-align: left;
+	border-bottom: 1px solid #ccc;
+}
+div.turn-change span.turn-change{
+	float: right;
+	clear: left;
+	margin-top: 0.5rem;
+	font-weight: 700;
+	border-radius: 8px;
+	padding: 0.3rem;
+	width: 30%;
+	text-align: center;
+	cursor: pointer;
+}

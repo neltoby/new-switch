@@ -1,0 +1,39 @@
+div.status-edit-container{
+	margin-bottom: 1rem;
+	background-color: #fff;
+}
+div.edit-container{
+	font-size: 1.3rem;
+	font-style: italic;
+	color: #7289da;
+	padding: 0.6rem 1rem 0.6rem 0.6rem;
+	font-weight: 600;
+	/*border-bottom-right-radius: 180px;
+	border-bottom-left-radius: 180px;
+	border-top-right-radius: 180px;*/
+	/*border: 2px solid #7289da;*/
+}
+div.check-status{
+	margin-bottom: 0.4rem;
+}
+div.edit-status{
+	width: 35%;	
+	float: right ;
+	clear: both;
+	margin-right: 5%;
+}
+div.edit-status .edit-but{	
+	width: 100%;
+	background-color: #7289da;
+	color: #fff;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	border-radius: 6px;
+	font-weight: 700;
+}
+img.edited-status-profile{
+	border-radius: 8px;
+	margin: auto;
+	padding: 2px;
+	border: 4px solid #7289da;
+}

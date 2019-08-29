@@ -1,0 +1,36 @@
+span.reply-container:hover{
+	border: 2px solid #7289da;
+	padding: 1px 4px;
+	border-radius: 180px;
+}
+span.reply-container:hover span.reply-close{
+	display: inline-block;
+	cursor: pointer;
+	font-size: 22px;
+	color: #7289da;
+	font-weight: 600;
+}
+span.reply-container:hover span.reply-name{
+	font-size: 19px;
+	font-weight: 600;
+	margin-right: 0.5rem;
+	animation-name: span-font;
+	animation-duration: 0.3s;
+	color: #7289da;
+}
+span.reply-close{
+	display: none;
+}
+span.reply-container{
+	font-size: 22px;
+	margin-right: 1rem;
+	display: inline-block;
+}
+span.reply-container-i{
+	margin-left: 1rem;
+	font-weight: 600;
+	font-size: 20px;
+}
+span.reply-container-refer{
+	margin-right: 0.5rem;
+}

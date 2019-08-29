@@ -1,0 +1,114 @@
+div.interest-wall{
+	font-size: 25px;
+	/*font-weight: 600;*/
+	color: #647489;
+}
+div.search-head{
+	margin-top: -4rem;
+	margin-bottom: -1rem;
+}
+span.write-span-1{
+	margin: auto;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border: 1px solid #7289da;
+	background-color: #7289da;
+	border-radius: 180px;
+}
+div.fix{
+	position: fixed;
+	bottom: 2rem;
+	right: 27%;
+	z-index: 10;
+}
+div.ipt-grps{
+	border-right: 2px solid #9fabba !important;
+	border-radius: 180px;
+	border-bottom: 0 !important;
+	border-top: 2px solid #9fabba !important;
+}
+div.ipt-grpt{
+	border: 2px solid #9fabba !important;
+	border-radius: 8px;
+}
+input.post-input-search{
+	background-color: #fff !important;
+	font-size: 20px;
+	border-bottom: 2px solid #9fabba !important;
+	border-left: 2px solid #9fabba !important;
+    border-radius: 180px;
+}
+div.input-search{
+	border-bottom: 2px solid #9fabba !important;
+}
+div.last-input-search{
+	border-right: 2px solid #9fabba !important;
+	/*border-radius: 180px;*/
+	border-left: 0 !important;
+	border-bottom: 2px solid #9fabba !important;
+	border-bottom-right-radius: 180px;
+	border-top-right-radius: 180px;
+}
+div.show-turn-off{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+div.show-turn-off span.item-hover{
+	position: absolute;
+	width: 200%;
+	display: none;
+	padding: 0.3rem;
+	border: 1px solid #7289da;
+	border-radius: 6px;
+	background-color: #7289da;
+	color: #fff;
+	margin-top: 5px;
+	font-weight: 700;
+	z-index: 1;
+}
+div.show-turn-off span.item-hover:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 20%;
+	margin-left: -5px;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #7289da;
+	transform: rotate(45deg);
+	margin-top: -5px;
+	background-color: inherit;
+	z-index: 1;
+}
+div.show-turn-off:hover span.item-hover{
+	display: block;
+}
+.turn-off-bell{
+	margin: auto;
+}
+span.no-turn-off{
+	font-size: 30px;
+	font-weight: 700;
+	color: #7289da;
+}
+span.label{
+	padding: 0.3rem;
+	background-color: red;
+	color: #fff;
+	font-weight: 900;
+	/*margin-bottom: -15px;*/
+	border-radius: 6px;
+	font-size: 13px;
+}
+sup.sup-label{
+	margin-bottom: -15px;
+}
+div.turn-off-name{
+	padding-bottom: 0.4rem;
+}
+div.turn-off-name b{
+	font-size: 22px;
+}

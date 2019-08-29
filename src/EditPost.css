@@ -1,0 +1,25 @@
+div.row-edit{
+	height: 12rem;
+	margin-top: -3rem;
+	margin-bottom: 0.7rem;
+	position: relative !important;
+}
+div.row-edit span.edit-load-span{
+	margin: auto ;
+}
+div.form-control, div.button-control{
+	margin-bottom: 1rem !important;
+	position: relative !important;
+}
+div.button-control{
+	margin-top: 1rem;
+	position: relative !important;
+}
+div.button-control input[type=button]{
+	width: 5rem;
+	font-weight: 700;
+}
+div.form-control input[type=text],div.form-control textarea{
+	border: 1px solid #ccc !important;
+	position: relative !important;
+}

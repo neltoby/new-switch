@@ -1,0 +1,9 @@
+body{
+  background-color: #d1d1e0 !important;
+}
+img{
+	/*width: 100%;
+	height: auto;
+	display: block;*/
+	object-fit: cover;
+}

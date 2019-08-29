@@ -1,0 +1,59 @@
+img.threaded-img{
+	border-radius: 6px;
+/*	padding: 4px;*/
+}
+div.div-threaded{
+	padding: 8px;
+}
+div.absolute-div{
+	display: none;
+}
+div.div-threaded:hover div.absolute-div{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	height: 100%;
+	border-radius: 6px;
+	color: #fff;
+} 
+div.absolute-title{
+	margin-top: 3px;
+	font-weight: 700;
+	animation-name: thread-title;
+	animation-duration: 0.3s;
+}
+div.absolute-title .threadlink{
+	color: #fff !important;
+}
+div.absolute-title .threadlink:hover{
+	color: #007bff !important;
+}
+div.absolute-tags{
+	position: absolute;
+	bottom: 10px;
+	margin-left: 20%;
+	width: 80%;
+}
+span.first-tag,span.second-tag,span.third-tag{
+	margin-right: 1.5rem;
+	font-weight: 600;
+	padding-bottom: 5px;
+}
+span.first-tag:hover,span.second-tag:hover,span.third-tag:hover{
+	border-bottom: 4px solid #fff;
+	animation-name: shift;
+	animation-duration: 0.2s;
+}
+@keyframes thread-title{
+	0% {display: none;}
+	50% { display: block;margin-top: 15px;}
+	100% {display: block;margin-top: 3px;}
+}
+@keyframes shift{
+	0% {padding: 0;}
+	50% { padding-bottom: 3px;}
+	100% {padding-bottom: 5px;border-bottom: 4px solid #fff}
+}

@@ -1,0 +1,52 @@
+.interest{
+	font-size: 1.6rem;
+
+}
+.add-interest,.added-interest,.list-interest{
+	padding: 1.5rem 1em 1rem;
+}
+/*.added-interest{
+	padding: 2rem 1rem
+}*/
+ul,ul.list{
+	list-style-type: none;
+}
+ul.list{
+	/*list-style-type: none;	*/
+	border: 1px solid #ddd;
+	border-top: 0;
+	margin: 0;
+	padding: 0;
+	display: none;
+	position: absolute;
+	width: 100%;
+	z-index: 99999999;
+	background-color: #eee;
+}
+ul.list li{
+	padding: 0.5rem;
+	border-bottom: 1px solid #ddd;	
+	text-align: left;
+	font-weight: 600;
+	padding-left: 1rem;	
+}
+ul.list li:hover{
+	background-color: #fff;
+}
+ul.list li:last-child{
+	border-bottom: 0;
+}
+div.send-interest{
+	padding: 1rem;
+	margin-bottom: 1rem; 
+}
+.interest-option{
+	font-size: 1.5rem;
+}
+.liked{
+	font-weight: 600;
+	font-size: 1.25rem;
+}
+.already-liked{
+	padding: 1rem 2rem;
+}

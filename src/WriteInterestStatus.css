@@ -1,0 +1,44 @@
+div.status-container{
+	margin-bottom: 2rem !important;
+	margin-top: -2rem !important;
+	padding: 2rem;
+	background-color: #fff !important;
+	height: 11rem;
+	/*border-bottom: 1px solid #ccc;*/
+}
+div.text-container{
+	padding: 2rem;
+/*	border-bottom: 1px solid #ccc;*/
+}
+div.wrt-grp{
+	border: 0 !important;
+	height: 70px;	
+}
+div.wrt-grp textarea{
+	background-color: #fff !important;
+}
+div.show-placeholder{
+	text-align: left;
+	font-size: 1.5rem;
+	animation-name: placeholder;
+	animation-duration: 0.3s;
+	color: #7289da;
+	margin-bottom: 2px;
+}
+span.read-text{
+	font-size: 30px;
+}
+img.status-profile{
+	border-radius: 8px;
+	margin: auto;
+	padding: 2px;
+	border: 4px solid #7289da;
+}
+div.status-error{
+	color: tomato;
+	margin: 0;
+}
+@keyframes placeholder{
+	from{margin-bottom: -1rem;}
+	to{margin-bottom: 2px;}
+}

@@ -1,0 +1,47 @@
+div.search-option{
+	margin-top: 2rem !important;
+}
+div.search-option div.option-icon:hover{
+	/*border-bottom: 4px solid #7289da;*/
+}
+div.search-result-option{
+	color: #45505f !important;
+	font-size: 22px !important;
+}
+div.option-icon .search-icon{
+	margin: auto;
+	display: block !important;
+}
+div.active{
+	border-bottom: 4px solid #7289da !important;
+}
+div.option-icon:hover .search-icon{
+	display: none !important;
+}
+div.option-icon span.lists{
+	display: none !important;
+}
+div.active:hover span.lists{
+	font-weight: 700 !important;
+	color: #647489 !important;
+}
+div.option-icon:hover span.lists{
+	display: block !important;
+	font-size: 20px;
+	font-weight: 400;
+	color: #45505f;
+	margin: auto;
+	padding: 0;
+	animation-name: span-show;
+	animation-duration: 0.3s;
+}
+div.search-title{
+	margin-top: 1.2rem;
+	font-size: 25px;
+	font-weight: 600;
+	text-align: left;
+}
+@keyframes span-show {
+	from{font-size: 3px}
+	to{font-size: 20px}
+}

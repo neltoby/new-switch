@@ -1,0 +1,248 @@
+.c-row{
+	height: 100vh;
+	width: 100%;
+	background-color: #fff;
+}
+.c-col{
+	margin: auto ;
+	width: 94%;
+	max-height: 40rem;
+}
+.col-4{
+	margin: auto;
+}
+.col-8{
+	margin: auto;
+}
+.c-container-2{
+	width: 30rem;
+	margin: auto ;
+	/*mar*/
+	max-height: 100%;
+	border: 1px solid #ddd;
+	padding: 2rem 3rem;
+}
+.c-container-3{
+	font-size: 1.25rem;
+	margin-bottom: 2rem;
+	border: 2px solid #ccc;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	background-color: #647489;
+	color: #fff;
+}
+.c-container-4{
+	padding-left: 3rem;
+}
+.span-icon{
+	padding: 6px 8px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+}
+.input-group{
+	border-bottom: 2px solid #647489 !important;
+}
+.user-div{
+	margin-bottom: 2rem !important;
+}
+.n-row{
+	padding-top: 1rem;
+}
+.btn-changed{
+	width: 100%;
+	background-color: #647489 !important;
+	border-color: #647489 !important;
+}
+div.modal-body,div.m-row,div.m-col-1,div.m-col-2{
+	padding-top: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+}
+/*div.m-row{
+
+}*/
+span.modal-title{
+
+}
+div.m-col-1{
+	text-align: center;
+	border-right: 1px solid #ddd ;
+}
+div.m-col-1a{
+	max-width: inherit;
+	margin: auto;
+	padding-top: 4.5rem;
+	padding-bottom: 4.5rem;
+}
+div.m-col-1a span{
+	font-size: 11px;
+	color: gray;
+}
+div.m-col-2{
+	padding: 2rem;
+}
+div.m-col-2c{
+	margin: auto;
+	width: 250px;
+}
+div.m-col-2b{
+	padding: 1rem;
+}
+div.m-col-2b img{
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+div.container-second{
+	display: none;
+}
+div.c-container-5{
+	position: relative;
+	padding: 1rem;
+}
+div.input-groups{
+	margin-bottom: 1rem;
+}
+div.c-container-5 span{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin: auto;
+	animation-name: arrow;
+    animation-duration: 5s;
+    /*animation-delay: 4s;*/
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes arrow {
+    0% {top: 0;}
+    2%{top: 1rem;}
+    4%{top: 0;}
+    8%{top: 1rem;}
+    10%{top: 0;}
+    12%{top: 1rem;}
+    14%,100%{top: 0;}
+}
+div.t-col{
+	font-size: 12px;
+	padding-bottom: 1rem
+}
+.centered{
+	margin: auto;
+}
+.btn-change{
+	background-color: #fff !important;
+	color: #647489 !important;
+	border: 1px solid #647489;
+	width: 100%;
+}
+.btn-change:hover{
+	background-color: #647489 !important;
+	color: #fff !important;
+	font-weight: 600;
+}
+.btn-changed:hover{
+	color: #647489 !important;
+	background-color: #fff !important; 
+	font-weight: 600;
+}
+.next{
+	padding: 0 !important;
+}
+.next:hover,.b-marg:hover{
+	background-color: #eee;
+}
+/*.b-marg:hover{
+	color: ;
+}*/
+.b-marg{
+	margin: auto;
+	width: 100%;
+	background-color: #fff;
+	color: #647489 !important;
+	border: 0;
+/*	margin-bottom: 0;*/
+}
+.head-logo{
+	font-size: 1.2rem;
+	margin-bottom: 1rem
+}
+/* Small devices (landscape phones, 400px and up) */
+@media (min-width: 400px) {  
+	div.col-4-s{
+		display: none;
+		width: 0;
+	}
+	div.col-8-s{
+		width: 98%;
+		margin: auto;
+	}
+	div.c-container-2{
+		width: 100%;
+	}
+	/*.shadow{
+		box-shadow: 0 0 0 0 , 0 0 0 0 !important;
+	}*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+	div.col-4-s{
+		display: block;
+		width: 33.3%;
+	}
+	div.col-8-s{
+		width: 66.6%;
+	}
+	div.c-container-2{
+		max-width: 60%;
+	}
+	div.c-container-1{
+		margin: auto;
+	}.hide-large {
+		display: none;
+	}
+	.hide-medium{
+		display: none;
+	}
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	div.col-4-s{
+		display: block;
+		width: 33.3%;
+	}
+	div.col-8-s{
+		width: 66.6%;
+	}
+	div.c-container-1{
+		margin: auto;
+	}
+	.hide-large {
+		display: none;
+	}
+	.hide-medium{
+		display: none;
+	}
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    div.col-4-s{
+    	display: block;
+		width: 33.3%;
+	}
+	div.col-8-s{
+		width: 66.6%;
+	}
+	div.c-container-1{
+		margin: auto;
+	}
+	.hide-large {
+		display: none;
+	}
+	.hide-medium{
+		display: none;
+	}
+}

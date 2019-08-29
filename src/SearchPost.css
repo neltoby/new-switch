@@ -1,0 +1,39 @@
+div.post-container{
+	margin-bottom: 1rem;
+	width: 100% !important;
+}
+div.post-titl{
+	font-size: 22px;
+	text-decoration: underline;
+}
+div.post-text{
+	font-size: 20px;
+	text-align: left;
+}
+div.search-row-icon{
+	margin: 0.6rem 0.6rem 0;
+}
+img.search-u-img{
+	border-radius: 6px;
+	margin-right: 1rem;
+}
+span.search-icon{
+	font-weight: 600;
+	color: #9fabba;
+}
+div.div-ff span.search-uname{
+	font-weight: 700;
+	color: #7289da;
+}
+div.div-ff{
+	text-align: left;
+	font-weight: 600;
+}
+span.search-ff{
+	/*background-color: #45505f;*/
+	color: #45505f;
+	font-weight: 700;
+	/*border-radius: 6px;*/
+	padding: 0.2rem 0.8rem;
+	display: none;
+}
